@@ -1,0 +1,626 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.App{
+    background-color: #e1eaff;
+}
+
+.MainContainer{
+    background-color: #e1eaff;
+}
+
+.portfolio-web {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.portfolio-web .div {
+    /* height: 4384px; */
+    height: 4350px;
+    position: relative;
+    width: 1280px;
+}
+
+.portfolio-web .footer {
+    background-color: #000000;
+    /* height: 264px; */
+    height: 230px;
+    left: 0;
+    position: absolute;
+    top: 4120px;
+    width: 1280px;
+    border-radius: 25px 25px 0 0;
+}
+
+.portfolio-web .text-wrapper {
+    color: #ffffff;
+    /* font-family: "Krona One-Regular", Helvetica; */
+    font-family: copperplate;
+    /* font-size: 20px; */
+    font-size: 26px;
+    font-weight: 400;
+    left: 510px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 20px;
+}
+
+.portfolio-web .text-wrapper-2 {
+    color: #a2a2a2;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 510px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    /* top: 225px; */
+    top: 190px;
+    white-space: nowrap;
+}
+
+.portfolio-web .socials {
+    height: 92px;
+    left: 491px;
+    position: absolute;
+    top: 70px;
+    width: 299px;
+}
+
+.portfolio-web .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 68px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: -1px;
+    white-space: nowrap;
+}
+
+.portfolio-web .insta {
+    height: 40px;
+    left: 40px;
+    position: absolute;
+    top: 42px;
+    width: 40px;
+}
+
+.portfolio-web .linked-in {
+    height: 50px;
+    left: 124px;
+    position: absolute;
+    top: 42px;
+    width: 51px;
+}
+
+.portfolio-web .discord {
+    height: 50px;
+    left: 207px;
+    position: absolute;
+    top: 42px;
+    width: 52px;
+}
+
+.portfolio-web .overlap {
+    height: 4120px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1280px;
+}
+
+.portfolio-web .certificate {
+    background-color: #e1eaff;
+    height: 832px;
+    left: 0;
+    position: absolute;
+    top: 3288px;
+    width: 1280px;
+}
+
+.portfolio-web .text-wrapper-4 {
+    color: #000000;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    left: 552px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 128px;
+}
+
+.portfolio-web .certificate-section {
+    height: 550px;
+    left: 57px;
+    position: absolute;
+    top: 217px;
+    width: 1167px;
+}
+
+.portfolio-web .work {
+    background-color: #e1eaff;
+    height: 832px;
+    left: 0;
+    position: absolute;
+    top: 2465px;
+    width: 1280px;
+}
+
+.portfolio-web .text-wrapper-5 {
+    color: #000000;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    left: 597px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 128px;
+}
+
+.portfolio-web .weather-app {
+    height: 270px;
+    left: 119px;
+    position: absolute;
+    top: 312px;
+    width: 460px;
+}
+
+.portfolio-web .to-do-list {
+    height: 270px;
+    left: 702px;
+    position: absolute;
+    top: 312px;
+    width: 460px;
+}
+
+.portfolio-web .skills {
+    background-color: #e1eaff;
+    height: 832px;
+    left: 0;
+    position: absolute;
+    top: 1643px;
+    width: 1280px;
+}
+
+.portfolio-web .text-wrapper-6 {
+    color: #000000;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    left: 596px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 128px;
+}
+
+.portfolio-web .UXUI {
+    height: 388px;
+    left: 147px;
+    position: absolute;
+    top: 290px;
+    width: 278px;
+}
+
+.portfolio-web .WEB-DEV {
+    height: 388px;
+    left: 502px;
+    position: absolute;
+    top: 290px;
+    width: 278px;
+}
+
+.portfolio-web .GRAPHIC-ILLUSTRATOR {
+    height: 388px;
+    left: 855px;
+    position: absolute;
+    top: 290px;
+    width: 278px;
+}
+
+.portfolio-web .about {
+    background-color: #e1eaff;
+    height: 832px;
+    left: 0;
+    position: absolute;
+    top: 825px;
+    width: 1280px;
+}
+
+.portfolio-web .text-wrapper-7 {
+    color: #000000;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    left: 560px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 122px;
+}
+
+.portfolio-web .overlap-group {
+    height: 506px;
+    left: 111px;
+    position: absolute;
+    top: 290px;
+    width: 1078px;
+}
+
+.portfolio-web .innovative-web {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(180deg, rgb(116.17, 95.48, 251.81) 0%, rgb(91.94, 160, 250.75) 100%);
+    background-clip: text;
+    color: transparent;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 26px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    text-fill-color: transparent;
+    top: 0;
+    width: 673px;
+}
+
+.portfolio-web .about-me-image {
+    height: 424px;
+    left: 590px;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    width: 452px;
+}
+
+.portfolio-web .home {
+    background-color: #e1eaff;
+    height: 832px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1280px;
+}
+
+.portfolio-web .overlap-2 {
+    height: 464px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1280px;
+}
+
+.portfolio-web .frame {
+    background-image: url(./images/bubbles.png);
+    background-size: 100% 100%;
+    height: 416px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1280px;
+    border-radius: 0 0 25px 25px;
+}
+
+.portfolio-web .profile-pic {
+    height: 241px;
+    left: 519px;
+    object-fit: cover;
+    position: absolute;
+    top: 223px;
+    width: 241px;
+    border-radius: 200px;
+}
+
+.portfolio-web .header {
+    background-color: #ffffff66;
+    border-radius: 25px;
+    height: 69px;
+    left: 117px;
+    overflow: hidden;
+    position: absolute;
+    top: 54px;
+    width: 1046px;
+
+    margin: auto;
+    margin-top: 50px;
+    position: sticky;
+    top: 15px;
+    z-index: 3;
+    backdrop-filter: blur(10px);
+}
+
+.portfolio-web .div-wrapper {
+    height: 19px;
+    left: 933px;
+    position: absolute;
+    top: 25px;
+    width: 92px;
+}
+
+.portfolio-web .text-wrapper-8 {
+    color: #6a6a6a;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: -1px;
+    white-space: nowrap;
+}
+
+.portfolio-web .work-wrapper {
+    height: 19px;
+    left: 852px;
+    position: absolute;
+    top: 25px;
+    width: 41px;
+}
+
+.portfolio-web .skills-wrapper {
+    height: 19px;
+    left: 771px;
+    position: absolute;
+    top: 25px;
+    width: 41px;
+}
+
+.portfolio-web .about-wrapper {
+    height: 19px;
+    left: 683px;
+    position: absolute;
+    top: 25px;
+    width: 48px;
+}
+
+.portfolio-web .home-wrapper {
+    height: 19px;
+    left: 595px;
+    position: absolute;
+    top: 25px;
+    width: 48px;
+}
+
+.portfolio-web .img {
+    height: 19px;
+    left: 597px;
+    position: absolute;
+    top: 25px;
+    width: 46px;
+}
+
+.portfolio-web .text-wrapper-9 {
+    color: #6a6a6a;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 21px;
+    white-space: nowrap;
+}
+
+.portfolio-web .developer-animation {
+    height: 73px;
+    left: 402px;
+    position: absolute;
+    top: 721px;
+    width: 477px;
+}
+
+.portfolio-web .name-animation {
+    height: 76px;
+    left: 402px;
+    position: absolute;
+    top: 574px;
+    width: 477px;
+
+    border-radius: 25px;
+}
+
+.portfolio-web .hi-myself {
+    height: 52px;
+    left: 570px;
+    position: absolute;
+    top: 520px;
+    width: 138px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.portfolio-web .hi-myself p{
+    font-size: 30px;
+}
+
+/* <----------------------------Flipping Card----------------------------> vvvv */
+.maincontainer{
+    position: absolute;
+    width: 250px;
+    height: 320px;
+    background: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* THE CARD HOLDS THE FRONT AND BACK FACES */
+  .thecard{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+  }
+  
+  /* THE PSUEDO CLASS CONTROLS THE FLIP ON MOUSEOVER AND MOUSEOUT */
+  .thecard:hover{
+    transform: rotateY(180deg);
+  }
+  
+  /* THE FRONT FACE OF THE CARD, WHICH SHOWS BY DEFAULT */
+   .thefront{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    overflow: hidden;
+    background: rgb(116.17, 95.48, 251.81);
+    color: rgb(132, 114, 253);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
+  .theback{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    overflow: hidden;
+    background: rgb(176, 209, 252);
+    color: #ececec;
+    text-align: center;
+    transform: rotateY(180deg);
+  }
+  
+  
+  /*This block (starts here) is merely styling for the flip card, and is NOT an essential part of the flip code */
+  .thefront h1, .theback h1{
+    font-family: 'zilla slab', sans-serif;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 30px;
+  }
+  
+  .thefront p, .theback p{
+    font-family: 'zilla slab', sans-serif;
+    padding: 15px;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 25px;
+    margin: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(116.17, 95.48, 251.81);
+  }
+/* <----------------------------Flipping Card----------------------------> ^^^^ */
+
+.skills_icon{
+    font-family: 'zilla slab', sans-serif;
+    padding: 5px;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 25px;
+    margin: 5px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgb(91.94, 160, 250.75);
+}
+
+#uxui{
+    background-image: url('./images/uxui.png');
+}
+
+#web{
+    background-image: url('./images/web.jpg');
+}
+
+#graphic{
+    background-image: url('./images/graphic.png');
+}
+
+
+.certificates{
+    display: block;
+    margin: auto;
+    height: 450px;
+}
+
+.app p{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:.4s ease all;
+    border-radius: 25px;
+}
+
+.app p:hover{
+    position: absolute;
+    background-color: rgb(255, 255, 255, 0.2);
+    opacity: 1;
+    border-radius: 25px;
+}
+
+.weather-app img, .to-do-list img{
+    border-radius: 25px;
+    width: 100%;
+}
+
+.insta a, .linked-in a, .discord a {
+    font-size: 36px;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -10px;
+}
+
+.NameImg{
+    width: 100%;
+    padding-top: 25px;
+}
+
+.resume a{
+    background-color: rgba(255, 255, 255, 0.574);
+    top: 320px;
+    position: absolute;
+    z-index: 6;
+    right: 0;
+    padding: 10px;
+    transform: rotate(-90deg);
+    position: fixed;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #6a6a6a;
+    text-decoration: none;
+}
