@@ -1,9 +1,9 @@
-import Frame from './Frame'
+import Dimensions from './Dimensions';
 
 function App() {
   return (
     <div className="App">
-      <Frame/>
+      <Dimensions/>
     </div>
   );
 }
